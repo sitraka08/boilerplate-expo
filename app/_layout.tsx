@@ -7,8 +7,7 @@ import "react-native-reanimated";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { FONTS } from "@/constants/fonts";
 
-(Text as any).defaultProps = (Text as any).defaultProps || {};
-(Text as any).defaultProps.allowFontScaling = false;
+
 
 export default function RootLayout() {
   const queryClient = new QueryClient();
